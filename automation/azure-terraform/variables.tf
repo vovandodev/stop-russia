@@ -14,6 +14,6 @@ variable "mem_spec" {
   default = "0.5"
 }
 
-output "name" {
+/* output "name" {
   value = azurerm_container_group.stoprussia.name
-}
+} */
