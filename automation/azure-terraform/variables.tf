@@ -3,17 +3,17 @@ variable "resource_group_name" {
 }
 
 variable "region" {
-  default = "eastasia" # default asian region
+  default = "West Europe"
 }
 
 variable "cpu_spec" {
-  default = "0.5"
+  default = "1"
 }
 
 variable "mem_spec" {
-  default = "0.5"
+  default = "1.5"
 }
 
-/* output "name" {
-  value = azurerm_container_group.stoprussia.name
-} */
+# output "name" {
+#   value = azurerm_container_group.stoprussia.name
+# }
